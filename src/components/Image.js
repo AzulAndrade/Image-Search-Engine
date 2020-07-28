@@ -10,16 +10,20 @@ const Images = ({ image }) => {
   console.log("image.webformatURL", image);
   return (
     <div>
-      <div className="card card-pin">
-        <img className="card-img" src={largeImageURL} alt={tags}></img>
+      <div className="card card-pin" >
+      
+         <img className="card-img" src={largeImageURL} alt={tags}>
+         </img>
+     
         <div className="overlay">
-          <h2 className="card-title title">{likes} Likes</h2>
+         <h2 className="card-title title">{likes} Likes</h2> 
           <div className="more">
             <a target="_blank" href={largeImageURL}>
               <i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-              Read More
+              VIEW
             </a>
           </div>
+          
         </div>
       </div>
       <div id="fb-root"></div>

@@ -15,12 +15,12 @@ const Form = ({ setSearch }) => {
           <div className="collapse navbar-collapse" id="navbarsDefault">
             <ul className="navbar-nav ml-auto align-items-center">
               <li className="nav-item">
-                <a className="nav-link active" href="index.html">
+                <a className="nav-link active" href="https://azulandrade.netlify.app/">
                   Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="author.html">
+                <a className="nav-link" href="https://github.com/AzulAndrade" target="_blank">
                   <img className="logo" src={githublogo} width="30"></img>
                 </a>
               </li>

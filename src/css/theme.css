@@ -8,6 +8,8 @@ img {
 
 /* line 5, src/assets/scss/theme.scss */
 a, .a:hover {
+  padding: 16px;
+  font-size: 20px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
 
